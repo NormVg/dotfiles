@@ -42,3 +42,8 @@ function create-prog(){
 	mkdir $1
 	cd $1
 }
+
+
+function mrclone(){
+	git clone https://github.com/NormVg/$1
+}
